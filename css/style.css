@@ -1,0 +1,69 @@
+body {
+    height: 100%;
+    background: #0099ff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #0099ff 0%, #ff32f1 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0099ff), color-stop(100%, #ff32f1));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #0099ff 0%, #ff32f1 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #0099ff 0%, #ff32f1 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #0099ff 0%, #ff32f1 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #0099ff 0%, #ff32f1 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0099ff', endColorstr='#ff32f1', GradientType=0);
+    /* IE6-9 */
+}
+
+.pattern {
+    background-image: url("../img/pattern.png");
+}
+
+.jumbotron {
+    background: #fbff32;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fbff32 0%, #00ffd0 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbff32), color-stop(100%, #00ffd0));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fbff32 0%, #00ffd0 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fbff32 0%, #00ffd0 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fbff32 0%, #00ffd0 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #fbff32 0%, #00ffd0 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#fbff32', endColorstr='#00ffd0', GradientType=0);
+    /* IE6-9 */
+}
+
+img {
+    width: 100%;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    color: chartreuse;
+    text-shadow: 2px 2px #0099ff;
+}
